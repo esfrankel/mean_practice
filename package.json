@@ -1,0 +1,23 @@
+{
+  "name": "humanresources",
+  "version": "1.0.0",
+  "description": "mean test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esfrankel/mean_practice.git"
+  },
+  "keywords": [
+    "mean",
+    "heroku"
+  ],
+  "author": "Eric Frankel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esfrankel/mean_practice/issues"
+  },
+  "homepage": "https://github.com/esfrankel/mean_practice#readme"
+}
