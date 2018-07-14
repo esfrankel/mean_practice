@@ -1,8 +1,6 @@
-const mongoose = require('mongoose');
-
-const Schema = mongoose.Schema;
-
-const EmployeeSchema = new Schema({
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var EmployeeSchema = new Schema({
   id: {
     type: String,
     required: true,
@@ -24,7 +22,7 @@ const EmployeeSchema = new Schema({
   },
   image: {
     type: String,
-    default: 'images/users.png'
+    default: 'images/user.png'
   },
   address: {
     lines: {
@@ -37,7 +35,7 @@ const EmployeeSchema = new Schema({
       type: String
     },
     zip: {
-      type: String
+      type: Number
     }
   }
 });
