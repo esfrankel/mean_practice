@@ -2,6 +2,7 @@ var http = require('http');
 var employeeService = require('./lib/employees');
 var responder = require('./lib/responseGenerator');
 var staticFile = responder.staticFile('/public');
+require('./lib/connection');
 
 Array.prototype.find = function (predicate) {
   for (var i = 0, value; i < this.length; i++) {
